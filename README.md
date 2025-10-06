@@ -1,5 +1,5 @@
 # model description
-A model version of the ELL1 model in TEMPO2, in which the Romer delay is calculated without low-eccentricity approximation
+A modified version of the ELL1 model in TEMPO2, in which the Romer delay is calculated without low-eccentricity approximation
 
 # usage
 If the EDOT parameter is present in the par file, the Romer delay is calculated without the low-eccentricity approximation; otherwise, the original model is used. BINARY paramter in the par file is still "ELL1".
