@@ -278,8 +278,8 @@ double ELL1model(pulsar *psr,int p,int ipos,int param,int k)
         phase=phase+omega;
         
         Comega=x*(cw*cume-sqr1me2*sw*su);
-        Ce=su*Csigma-x*sw-ecc*x*cw*su/sqr1me2;
         Csigma   = x*(-sw*su+sqr1me2*cw*cu)/onemecu;
+        Ce=su*Csigma-x*sw-ecc*x*cw*su/sqr1me2;
     	Cx       = sw*(cu-ecc)+sqr1me2*cw*su;
         if(ecc==0){
         	Ceps1    = -0.5*x*cos(2*phase);
